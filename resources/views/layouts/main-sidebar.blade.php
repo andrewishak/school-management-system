@@ -7,7 +7,7 @@
                     <!-- menu item Dashboard-->
                     <li>
                         <a href="javascript:void(0);" data-toggle="collapse" data-target="#dashboard">
-                            <div class="pull-left"><i class="ti-home"></i><span class="right-nav-text">Dashboard</span>
+                            <div class="pull-left"><i class="ti-home"></i><span class="right-nav-text">{{ trans('sidebar.dashboard') }}</span>
                             </div>
                             <div class="pull-right"><i class="ti-plus"></i></div>
                             <div class="clearfix"></div>
@@ -21,12 +21,12 @@
                         </ul>
                     </li>
                     <!-- menu title -->
-                    <li class="mt-10 mb-10 text-muted pl-4 font-medium menu-title">Components </li>
+                    <li class="mt-10 mb-10 text-muted pl-4 font-medium menu-title">{{ trans('sidebar.components') }} </li>
                     <!-- menu item Elements-->
                     <li>
                         <a href="javascript:void(0);" data-toggle="collapse" data-target="#elements">
                             <div class="pull-left"><i class="ti-palette"></i><span
-                                    class="right-nav-text">Elements</span></div>
+                                    class="right-nav-text">{{ trans('sidebar.elements') }}</span></div>
                             <div class="pull-right"><i class="ti-plus"></i></div>
                             <div class="clearfix"></div>
                         </a>
@@ -56,7 +56,7 @@
                     <li>
                         <a href="javascript:void(0);" data-toggle="collapse" data-target="#calendar-menu">
                             <div class="pull-left"><i class="ti-calendar"></i><span
-                                    class="right-nav-text">calendar</span></div>
+                                    class="right-nav-text">{{ trans('sidebar.calender') }}</span></div>
                             <div class="pull-right"><i class="ti-plus"></i></div>
                             <div class="clearfix"></div>
                         </a>
@@ -67,24 +67,22 @@
                     </li>
                     <!-- menu item todo-->
                     <li>
-                        <a href="todo-list.html"><i class="ti-menu-alt"></i><span class="right-nav-text">Todo
-                                list</span> </a>
+                        <a href="todo-list.html"><i class="ti-menu-alt"></i><span class="right-nav-text">{{ trans('sidebar.todo_list') }}</span> </a>
                     </li>
                     <!-- menu item chat-->
                     <li>
-                        <a href="chat-page.html"><i class="ti-comments"></i><span class="right-nav-text">Chat
+                        <a href="chat-page.html"><i class="ti-comments"></i><span class="right-nav-text">{{ trans('sidebar.chat') }}
                             </span></a>
                     </li>
                     <!-- menu item mailbox-->
                     <li>
-                        <a href="mail-box.html"><i class="ti-email"></i><span class="right-nav-text">Mail
-                                box</span> <span class="badge badge-pill badge-warning float-right mt-1">HOT</span> </a>
+                        <a href="mail-box.html"><i class="ti-email"></i><span class="right-nav-text">{{ trans('sidebar.mail_box') }}</span> <span class="badge badge-pill badge-warning float-right mt-1">HOT</span> </a>
                     </li>
                     <!-- menu item Charts-->
                     <li>
                         <a href="javascript:void(0);" data-toggle="collapse" data-target="#chart">
                             <div class="pull-left"><i class="ti-pie-chart"></i><span
-                                    class="right-nav-text">Charts</span></div>
+                                    class="right-nav-text">{{ trans('sidebar.charts') }}</span></div>
                             <div class="pull-right"><i class="ti-plus"></i></div>
                             <div class="clearfix"></div>
                         </a>
@@ -98,8 +96,7 @@
                     <!-- menu font icon-->
                     <li>
                         <a href="javascript:void(0);" data-toggle="collapse" data-target="#font-icon">
-                            <div class="pull-left"><i class="ti-home"></i><span class="right-nav-text">font
-                                    icon</span></div>
+                            <div class="pull-left"><i class="ti-home"></i><span class="right-nav-text">{{ trans('sidebar.font') }}</span></div>
                             <div class="pull-right"><i class="ti-plus"></i></div>
                             <div class="clearfix"></div>
                         </a>
@@ -110,17 +107,16 @@
                         </ul>
                     </li>
                     <!-- menu title -->
-                    <li class="mt-10 mb-10 text-muted pl-4 font-medium menu-title">Widgets, Forms & Tables </li>
+                    <li class="mt-10 mb-10 text-muted pl-4 font-medium menu-title">{{ trans('sidebar.widgets_and_forms') }} </li>
                     <!-- menu item Widgets-->
                     <li>
-                        <a href="widgets.html"><i class="ti-blackboard"></i><span class="right-nav-text">Widgets</span>
+                        <a href="widgets.html"><i class="ti-blackboard"></i><span class="right-nav-text">{{ trans('sidebar.widgets') }}</span>
                             <span class="badge badge-pill badge-danger float-right mt-1">59</span> </a>
                     </li>
                     <!-- menu item Form-->
                     <li>
                         <a href="javascript:void(0);" data-toggle="collapse" data-target="#Form">
-                            <div class="pull-left"><i class="ti-files"></i><span class="right-nav-text">Form &
-                                    Editor</span></div>
+                            <div class="pull-left"><i class="ti-files"></i><span class="right-nav-text">{{ trans('sidebar.form') }}</span></div>
                             <div class="pull-right"><i class="ti-plus"></i></div>
                             <div class="clearfix"></div>
                         </a>
@@ -138,8 +134,7 @@
                     <!-- menu item table -->
                     <li>
                         <a href="javascript:void(0);" data-toggle="collapse" data-target="#table">
-                            <div class="pull-left"><i class="ti-layout-tab-window"></i><span class="right-nav-text">data
-                                    table</span></div>
+                            <div class="pull-left"><i class="ti-layout-tab-window"></i><span class="right-nav-text">{{ trans('sidebar.data_table') }}</span></div>
                             <div class="pull-right"><i class="ti-plus"></i></div>
                             <div class="clearfix"></div>
                         </a>
@@ -149,12 +144,11 @@
                             <li> <a href="data-table.html">Data table</a> </li>
                         </ul>
                     </li>
-                    <li class="mt-10 mb-10 text-muted pl-4 font-medium menu-title">More Pages</li>
+                    <li class="mt-10 mb-10 text-muted pl-4 font-medium menu-title">{{ trans('sidebar.more') }}</li>
                     <!-- menu item Custom pages-->
                     <li>
                         <a href="javascript:void(0);" data-toggle="collapse" data-target="#custom-page">
-                            <div class="pull-left"><i class="ti-file"></i><span class="right-nav-text">Custom
-                                    pages</span></div>
+                            <div class="pull-left"><i class="ti-file"></i><span class="right-nav-text">{{ trans('sidebar.custom_pages') }}</span></div>
                             <div class="pull-right"><i class="ti-plus"></i></div>
                             <div class="clearfix"></div>
                         </a>
@@ -176,7 +170,7 @@
                     <li>
                         <a href="javascript:void(0);" data-toggle="collapse" data-target="#authentication">
                             <div class="pull-left"><i class="ti-id-badge"></i><span
-                                    class="right-nav-text">Authentication</span></div>
+                                    class="right-nav-text">{{ trans('sidebar.authentication') }}</span></div>
                             <div class="pull-right"><i class="ti-plus"></i></div>
                             <div class="clearfix"></div>
                         </a>
@@ -188,19 +182,18 @@
                     </li>
                     <!-- menu item maps-->
                     <li>
-                        <a href="maps.html"><i class="ti-location-pin"></i><span class="right-nav-text">maps</span>
+                        <a href="maps.html"><i class="ti-location-pin"></i><span class="right-nav-text">{{ trans('sidebar.maps') }}</span>
                             <span class="badge badge-pill badge-success float-right mt-1">06</span></a>
                     </li>
                     <!-- menu item timeline-->
                     <li>
-                        <a href="timeline.html"><i class="ti-panel"></i><span class="right-nav-text">timeline</span>
+                        <a href="timeline.html"><i class="ti-panel"></i><span class="right-nav-text">{{ trans('sidebar.timeline') }}</span>
                         </a>
                     </li>
                     <!-- menu item Multi level-->
                     <li>
                         <a href="javascript:void(0);" data-toggle="collapse" data-target="#multi-level">
-                            <div class="pull-left"><i class="ti-layers"></i><span class="right-nav-text">Multi
-                                    level Menu</span></div>
+                            <div class="pull-left"><i class="ti-layers"></i><span class="right-nav-text">{{ trans('sidebar.menu') }}</span></div>
                             <div class="pull-right"><i class="ti-plus"></i></div>
                             <div class="clearfix"></div>
                         </a>
