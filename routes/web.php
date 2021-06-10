@@ -20,4 +20,4 @@ use Illuminate\Support\Facades\Route;
         return view('dashboard');
 	});
 
-	
+	Route::resource('grade', 'GradeController');
